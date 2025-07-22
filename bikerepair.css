@@ -1,0 +1,221 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(#FC5E55, #FA4083, #FC5E55);
+}
+
+body{
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 98px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbutton {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    height: 300px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+    min-height: 250px;
+}
+
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+    min-height: 250px;
+}
+
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+    min-height: 250px;
+}
+
+.Testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     margin-top: 100px;
+}
+
+.Testimonies{
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding-left: 20px;
+    width: 47%;
+   margin-bottom: 40px;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+.mybutton{
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.228);
+    border: white;
+}
+.mybutton a {
+    color: #FA4083;
+    display: inline-block;
+}
+
+.mybutton :hover{
+    background-color: aquamarine;
+    transition-duration: 1s;
+    width: 100%;
+}
+
+
+
+.inputwrapper {
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.865rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submit{
+    background-color: white;
+    padding: 10px;
+    color: #FA4083;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.154rem;
+}
+
+.countries{
+    padding: 10px;
+    color: #FA4083;
+    border-radius: 5px;
+    border: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.124rem;
+}
+
+
+.navbutton a{
+    float: left;
+    text-align: center;
+
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content a{
+
+    float: none;
+    color: #FC5E55;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
